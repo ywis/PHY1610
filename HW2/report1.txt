@@ -1,0 +1,90 @@
+1. Compling on local computer
+(1) time command:
+-original file: ./ants  0.12s user 0.00s system 95% cpu 0.135 total
+-modulized file: ./hw3  1.35s user 0.02s system 97% cpu 1.407 total
+-Conclusion: modulization takes more time than the original file to compile.
+
+(2) Instrumenting with tick-tock calls:
+-modulized file:
+#Initilize Calculation took:	0.0108646 sec
+#Output Calculation took:	0.111605 sec
+#Singlestep Calculation took:	1.35686 sec
+
+-original file:
+#Initilize Calculation took:	0.003696 sec
+#Output Calculation took:	0.00635736 sec
+#Singlestep Calculation took:	0.124034 sec
+
+-Conclusion: modulization takes more time than the original file to compile.
+
+ (3) gprof
+ -modulized file:
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 87.61      0.07     0.07       40     1.75     1.75  singlestep(int, int, float, ra::rarray<float, 2>, ra::rarray<float, 2>, ra::rarray<float, 2>)
+ 12.52      0.08     0.01       40     0.25     0.25  output(int, int, float, ra::rarray<float, 2>)
+ 0.00      0.08     0.00        1     0.00     0.00  initialize(int, int, ra::rarray<float, 2>, ra::rarray<float, 2>)
+
+ -original file:
+ 100.36      0.11     0.11                             main
+
+ (4) Conclusion:
+ Modulization makes the compilation of the file takes more time than the original.
+ Among different modules, the singlestep module take the majority of the time.
+ Perhaps to improve the performance of the singlestep function.
+
+--------------------------------------------------------------------------------------
+ 2. Compiling on SciNet
+ (1) time command:
+ -original file: ./ants 
+ real 0m0.334s
+ user 0m0.328s
+ sys  0m0.004s
+
+ -modulized file: ./hw3
+ real 0m0.363s
+ user 0m0.346s
+ sys  0m0.002s
+
+ (2) Instrumenting with tick-tock calls:
+ -original file:
+ #Initilize Calculation took:	0.0136529 sec
+ #Output Calculation took:	0.00639946 sec
+ #Singlestep Calculation took:	0.309528 sec
+ 
+ -modulized file:
+ #Initilize Calculation took:	0.0137678 sec
+ #Output Calculation took:	0.00639032 sec
+ #Singlestepvi h Calculation took:	0.325547 sec
+
+ (3) gprof
+
+ -original file:
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 100.31      0.11     0.11                             main
+
+
+ -modulized file:
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 100.13      0.11     0.11       40     2.75     2.75  singlestep(int, float, ra::rarray<float, 2>, ra::rarray<float, 2>, ra::rarray<float, 2>)
+ 0.00      0.11     0.00       40     0.00     0.00  output(int, int, float, ra::rarray<float, 2>)
+ 0.00      0.11     0.00        1     0.00     0.00  initialize(int, int, ra::rarray<float, 2>, ra::rarray<float, 2>)
+ -
+
+-Conclusion: 
+Only the singlestep is time-consuming, the output and the initilize part almost take no time.
+
+(4) Conclusion:
+ Modulization makes the compilation of the file takes more time than the original.
+ Among different modules, the singlestep module take the majority of the time, while the other parts almost take no time on gpc.
+ Improvement: singlestep is the bottle-neck, 
+
+ 
+
+
+
+
+ 
+

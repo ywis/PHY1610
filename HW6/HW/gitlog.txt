@@ -1,0 +1,11 @@
+commit e11bcffd8076b541fe09dc96c896fc012a96b17b
+Author: Siqi Liu <sqliu@gpc-f104n084-ib0.(none)>
+Date:   Thu Mar 10 12:41:20 2016 -0500
+
+    added the std pair in order to return the index.
+
+commit 6153385cdbb234e6d3d238a4960d494a8f181b83
+Author: Siqi Liu <sqliu@gpc-f104n084-ib0.(none)>
+Date:   Thu Mar 10 11:50:20 2016 -0500
+
+    forget to git commit the previous edits but currently trying to figure out returning the index of the sorted arrays.

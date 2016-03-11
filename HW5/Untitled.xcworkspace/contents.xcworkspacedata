@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:f_all_min.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:Et.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:Et.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:main.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:main.hpp">
+   </FileRef>
+   <FileRef
+      location = "group:f_all_min.hpp">
+   </FileRef>
+</Workspace>

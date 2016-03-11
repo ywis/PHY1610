@@ -1,0 +1,1200 @@
+commit 9c984c9729b0b813ddc81a68ab192106c83e7377
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Thu Feb 11 14:27:40 2016 -0500
+
+    Added the result in the implementation of the files on scinet.
+
+commit 776e4537db6dd72e4d07718b9873e79aebccf956
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Thu Feb 4 23:31:26 2016 -0500
+
+    Modify the boost_test module: the name of the test suite and the name of the test case.
+
+commit d27911a0c76e6e251c13d4c36fa3a4a7c5819285
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Thu Feb 4 23:10:35 2016 -0500
+
+    Modified the boost_test file to make it run.
+
+commit 16a20a9d89d8349289bba126e1ce49413f1ead1c
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Thu Feb 4 00:14:43 2016 -0500
+
+    figure out the bottleneck of the main function.
+
+commit 79b59a2b1ee581ff2ef043a45260f8d5de5e0adc
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Wed Feb 3 23:53:35 2016 -0500
+
+    added the instrumentation to both the original file and the modulized file.
+
+commit b2172c5d1a5b0bec3b03814c70a8bbd1ad3e1e6e
+Merge: fe630ad abbcfc2
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Tue Feb 2 12:35:38 2016 -0500
+
+    Merge https://github.com/vanzonr/rarray
+
+commit fe630adbfa3bb0c37e5009dc78905115ea9956ae
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Wed Jan 27 22:47:03 2016 -0500
+
+    Add the output file.
+
+commit c7e209610087f94422372b234582a944207c9426
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Wed Jan 27 22:42:24 2016 -0500
+
+    Separate the timestamp and the simulate. Fix the connection between the files.
+
+commit abbcfc22f923c1e52f304ebd8ce732b09d6a3057
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Jan 27 15:15:30 2016 -0500
+
+    In comparisons with std::vector, corrected usage of reserve to resize
+
+commit efb268ec7909f4364baadcbfbf3dfac87a2bc15d
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Tue Jan 26 23:25:12 2016 -0500
+
+    Created the makefile.
+
+commit 5007338cf96f655bd1499a10522660f342418b40
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Tue Jan 26 10:34:30 2016 -0500
+
+    Modulize the main function into different functions.
+
+commit afc183acb5a00b735fdf10b884e8882c308a4347
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Tue Jan 26 10:13:54 2016 -0500
+
+    Some compilers need the <algorithm> header file to be included for std::copy to work; they are right of course, so this is now added
+
+commit 23267400309423f39425529baa3fae3ba6171ad4
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 25 21:40:18 2016 -0500
+
+    Improve icpc support
+
+commit e51b00ec6083445b48155c0e3948c5f57e2f273c
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 25 20:42:09 2016 -0500
+
+    One more change to configure to appease Macs. A change to compiler.clang++.mk to appease clang++. A fix to Makefile to allow new doc samples to find <rarray> in current dir
+
+commit 3d151df9ed58bd72084091ff90dd2cef7ecaf90b
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 25 14:17:58 2016 -0500
+
+    Made the Makefile more robust, and changed the README.md and rarraydoc.tex to reflect that.
+
+commit 16817c3881ed0c30dc4d964c05afdf958fd7ea66
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 25 09:39:07 2016 -0500
+
+    For now, disabled test_reference_counting until bug is fixed.
+
+commit 42ddc9f81c6c7e23693049f8b9f7372510e8478b
+Merge: 1a11b33 141c0c4
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Sun Jan 24 22:59:49 2016 -0500
+
+    Merge https://github.com/vanzonr/rarray
+
+commit 141c0c4c4c75812852b26ddfa4a187f7eb748a81
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 24 16:28:35 2016 -0500
+
+    configure now uses a different mktemp mechanism that hopefully works on MacOS as well
+
+commit c388ade147a2a88594860c3e0772e12fc7f0e7b2
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 22 23:13:10 2016 -0500
+
+    README.md formatting
+
+commit 2195b68de9b8fd085095e385083aafba131d3094
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 22 23:08:10 2016 -0500
+
+    README.md formatting
+
+commit 139ac6acbf52d3621758326fe34c2b5ffcda60b8
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 22 23:03:43 2016 -0500
+
+    README.md formatting
+
+commit d8c4f639624d8303c600eca1413d6a6a11536af6
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 22 23:00:26 2016 -0500
+
+    README.md formatting
+
+commit 93c8ae0d33ab82e294632bac478ae46da5cfda89
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 22 22:55:52 2016 -0500
+
+    Elaborated on the installation procedure
+
+commit 1a11b33bece02be13b9f4ca07c353deec2b65f53
+Author: Siqi Liu <sqliu.astro@gmail.com>
+Date:   Fri Jan 22 10:39:54 2016 -0500
+
+    Initial commit
+
+commit 3a5bb4a4ad04186f0371a8aed6f071c3756b9e24
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 16:49:09 2016 -0500
+
+    Most of the stuff now working; but assigning subarrays to rarrays caused subarrays to be deleted; must introduce original pointers next
+
+commit 6567332f777273e402e58569727f5fdc1253e78b
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 12:09:39 2016 -0500
+
+    Accidently removed one of the constructor cases for R=8; fixed; Issues in test suite
+
+commit 7db3863ee1db02b3ff2050252e45dcf71c509690
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 12:02:10 2016 -0500
+
+    Removed ismine_ and cleans_ member variables which played no more role
+
+commit f0a4db0a970f8bf29242be034976a0a991f311a3
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 11:56:42 2016 -0500
+
+    Eliminated unnecessary function reshape_general, which did what reshape(const int*) does.
+
+commit 3c4712a8c9e013c14909ae1c60514692ffe47606
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 11:50:06 2016 -0500
+
+    Bug in c++03 assignment from temporary fixed
+
+commit d1da04b21262e88fbc564e3218fe478882f20fdb
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 11:27:26 2016 -0500
+
+    Removed reshape_force; all reshaping is now essentially the same; reference counters make sure it works. Must still be tested
+
+commit 71765ea45e6fbacb707ec1849dd5aa04432a7745
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 18 11:17:52 2016 -0500
+
+    Most of the reference counting in place; reshape may still be iffy.
+    
+    Also updated documentation to reflect changes.
+
+commit f3f73f6b4ebd29fd9427e9058a2d2118071fb833
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 17 16:30:36 2016 -0500
+
+    Segfaults allover by adding counters, although not yet used
+
+commit 12b49452151883669f87abbf25637a992d59b108
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 15 16:45:50 2016 -0500
+
+    Added a file to explore the copy behavior
+
+commit 3a5ad9c4d01ee0880bd5db73515a87b4970f7df3
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 15 15:41:13 2016 -0500
+
+    Updated files
+
+commit df257bbb0d8541dc0342da5167a9bcca51c3061a
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 15 12:00:29 2016 -0500
+
+    Renamed rarray.h to rarray and rarrayio.h to rarrayio. Updated documentation and code to reflex the change. Also removed streambench, which belongs in the experimental branch
+
+commit 7593bb076346e00f43168a130dcaf437c5ffba54
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 15 10:29:42 2016 -0500
+
+    Added test for returning rarray from function in c++11. Also removed expression test in the Makefile (should have been removed in last commit).
+
+commit ee2edc7d8c2b7473a5e0998cf27aacc81ae0fe32
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 15 10:18:06 2016 -0500
+
+    Removed the array expressions; they are for now just in the experimental branch
+
+commit 7302f5798f4bcbc5256ad17a8f6ed85e6bacd8ab
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 15 09:48:25 2016 -0500
+
+    Added debugging statements to rarrayex.h (problem disappears with -O0)
+
+commit 79b1b239e83123863080bdf40c8f5566b3690e88
+Merge: 5d77932 048cf87
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Thu Sep 10 07:51:24 2015 -0400
+
+    Merge branch 'master' of https://github.com/vanzonr/rarray
+    
+    Two independent changes from neptune and mercury.
+
+commit 5d779326c3d5b60f28687827f815336162b783d6
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Thu Sep 10 07:51:19 2015 -0400
+
+    Makefile distclean target updated
+
+commit 048cf87770ffc726a06aee13844ac3222e32dbbb
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Thu Sep 10 07:46:46 2015 -0400
+
+    trying
+
+commit 085fa7fb7db542a455f258d015f55e8365fc71e5
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Jun 10 09:49:51 2015 -0400
+
+    Seem to have tackled the memory leaks in the testsuite. Something is still up with streambench.cc when optimizing
+
+commit 41b7e0f090e73f04fc6de00894a141d246d51655
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Jun 10 01:53:06 2015 -0400
+
+    Tired, still some memory leaks
+
+commit e8c0c529ee1f4141e12762787c6082092acec09f
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Tue Jun 9 21:51:59 2015 -0400
+
+    Move operator was not using thedata_; cleaning was not done!
+
+commit f9f43d5db509ca9ea3f36b32471ef9d9bf732b01
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Tue Jun 9 17:05:42 2015 -0400
+
+    Still some issues with reductions
+
+commit f0e2c4c328ce33a8b4ab4476d4fcdeb09924235f
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Tue Jun 9 16:52:48 2015 -0400
+
+    Removed the express function; was the cause of segfaults. Expression templates in better shape it seems
+
+commit ddaff73a456500055e8d57e900d073682d09b100
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jun 8 00:55:46 2015 -0400
+
+    try a simple case first
+
+commit cf1539d9dbd3a8a21846919a6ce40b4109c0b2e6
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jun 5 13:52:34 2015 -0400
+
+    Combining expressions still buggy; included streambench.cc, which when compiled with optimization, does not work, but without, does (gcc 4.8)
+
+commit e50a0b750ec55e79da0169bdef1ec3136c292d1c
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jun 5 12:46:27 2015 -0400
+
+    Updated the documentation
+
+commit ccf50b029986d4aba63e6c757b51dac17ef30c30
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jun 5 12:22:50 2015 -0400
+
+    No longer need tmpval to implement move-like c++03 semantics
+
+commit 45333866ae1a3ded10e799f05c7e554676394e02
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jun 5 12:13:28 2015 -0400
+
+    Implemented a new way to mimic move semantics in C++03, while C++11 now uses proper move semantics (as was promissed several commits ago
+
+commit 7a81d9b75fb93b2333e9a6dea87dfd9678b4bb70
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Tue May 26 11:52:17 2015 -0400
+
+    Documentation now using qpdf
+
+commit 9baddcda62080d1cb9c9414dda2a770fec9e32b5
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Tue May 26 08:16:24 2015 -0400
+
+    Removed c++11-isms from rarrayex. Time to start testing
+
+commit 1acf06387a14375ed4b5aaa6a8a7e126ab739f52
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon May 25 21:00:56 2015 -0400
+
+    Remove superfluous eto.cc and rarraytestsuite.cc
+
+commit ead7319d9b32b659ed42f5b86e16fdeb607f92d5
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon May 25 20:53:11 2015 -0400
+
+    Added forgotten header files
+
+commit 006aadc21edd234e1b8727fdb38e40829c0ba286
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon May 25 20:47:14 2015 -0400
+
+    Added more boundchecking to rarrayex.h; but it is getting to be time for some rarrayex test suite
+
+commit 21f826c4414393203901a2af0b1c0c9e57e02f01
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon May 25 20:28:10 2015 -0400
+
+    Extracted temp macros common to rarray.h and rarrayex.h. Added boundschecking in assignment
+
+commit f818b91d9daca154e4b9b6e68064dc68fcc091d7
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun May 24 10:59:14 2015 -0400
+
+    Calling rarray::data() less in EXPR0
+
+commit dfaa597769a07982547bbf81d4aef5ec09253d89
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat May 23 11:17:16 2015 -0400
+
+    Eliminated eptrpair eshape and eprttriplet, simpifying, if somewhat duplicating, the code
+
+commit 6c2194b7c1acb9e7db1cf69e551aea8a7ddb197e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon May 18 20:47:41 2015 -0400
+
+    eliminated Eptr
+
+commit 078dddda7ea10b05dd3baaa965eefc39b67ce3b3
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon May 18 20:36:35 2015 -0400
+
+    Fixed rarrayex.h at least to the extent that it no longer seg faults. Seg fault somehow related to implementation of EXPR0, and not consistent between compilers and optimization level. This was either a subtle compiler bug or a very subtle inheritance bug, but it will be simpler (especially for debugging) to move away from the Eptr, Eptrpair and Eptrtriple
+
+commit 96ad015280b2ee9a3014d80eb72588ad6ff185ca
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 26 20:38:19 2015 -0500
+
+    Added operators to rarray though the (optional) header file rarrayex.h. Likely still buggy
+
+commit c2f45b0c866b9e1a86c6f0d6a8a1f182cde36d74
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 25 22:11:02 2015 -0500
+
+    eto.cc, created base classes to avoid code duplication
+
+commit 13c5ede86e568d9ed31ce4c652f379ef1cf89784
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Jan 24 20:27:58 2015 -0500
+
+    Shape of expressions in separate class
+
+commit b4c2def755c7f8cbb67f5f0555c82c201f9cdf50
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 19 23:59:23 2015 -0500
+
+    Reordered and renamed operator overloading parameters
+
+commit 6a18c4eeb7209078ce5fafe6a298b7d387ffe10a
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 19 21:10:29 2015 -0500
+
+    Cleaned up comments in eto.cc
+
+commit 2d54a25c7a9aa093ebe9b9a9d787244380b4f0b7
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 19 20:20:22 2015 -0500
+
+    Example for expression templates works.
+
+commit 0c8b438d86d9c9b8910d614aa020d6aa9c4d7551
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 19 16:43:31 2015 -0500
+
+    Almost there with ifelse, just not quite yet
+
+commit 121892383f70b13ea525ccfb7a3aef89bf814c8e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 19 00:40:28 2015 -0500
+
+    Make operator example ternary; just needs ifthen operator
+
+commit 5aae94e931842bfc044cb065d84d55065980baa9
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 18 13:30:53 2015 -0500
+
+    Some work on the operator overload prototype/example
+
+commit c419d88c271981af8a124b619f76abd020609631
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 18 01:09:09 2015 -0500
+
+    Add example code to see how operator overloading could be done
+
+commit c50fc5d17329a511b32f4cf6c77f276c6776a86b
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 12 11:16:50 2015 -0500
+
+    Separated the streaming operators into rarrayio.h
+
+commit 05ef878e960e1bfce4ac07f824bb880c3c02e8c8
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 9 16:58:17 2015 -0500
+
+    Test suite now using Boost.Test
+
+commit 7b20fd22696890b2e91a48ce40c1ba9666dd978b
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 9 12:38:21 2015 -0500
+
+    Actually added rarraytest.cc
+
+commit 0ecb6f338e0ac80163f212d2f37d4af026faf6b7
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 9 12:21:48 2015 -0500
+
+    Moving to Boost.Test for testsuite. New name of testsuite using Boost.Test is rarraytests.cc. As a start, the old int main from the non-Boost.Test testsuite (rarraytestsuite.cc) is the one and only test in the new testsuite, but this is to be fixed next.
+
+commit 4e91ebe48ab2ab2b1829ba04183f0ab023ca33e9
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 9 11:09:48 2015 -0500
+
+    Reshape test was broken; and thus failed; not fixed
+
+commit 37d30ab6ef1df006a89c6e5bcdf8b81b8c852516
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Jan 9 10:26:30 2015 -0500
+
+    rarraydoc.pdf now in uncompressed form
+
+commit 806897c8214bdb309228970afb2f2084bda4e69c
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Thu Jan 8 16:53:40 2015 -0500
+
+    Towards testing all reshape methods; almost there
+
+commit a7594cc3aabdeb6d70511f2eb34e9407d8a9ec3f
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Jan 7 14:09:12 2015 -0500
+
+    Made resizing an array that is not copied possible through a separate function, reshape_force
+
+commit 4dbd29db418bf875902148e463efda6b1e85712e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Mon Jan 5 11:15:16 2015 -0500
+
+    Explained simulated move semantics better in the doc
+
+commit c9e7bf8afcf4e97d253c3136722391dd4f6de4b4
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 23:44:07 2015 -0500
+
+    Deduplicated code
+
+commit 73e3e11b68239ee644f6497c4ae808f73cdd0090
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 23:09:52 2015 -0500
+
+    Updated copyright notices to 2015
+
+commit 574e1858d3ab005eef9ddcf2ba82df1194cb62db
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 23:01:23 2015 -0500
+
+    Eliminated the entire_ member, as it was no longer needed now that subarrays can be reshaped
+
+commit 25c8ea85a8ae16c8a64a0d6d5900bb2a878150b2
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 22:53:29 2015 -0500
+
+    Simplified extent_ construction
+
+commit e7b5166b72e1f417d6daf1a82faab58d3cfdb682
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 22:37:23 2015 -0500
+
+    Added a flag to reshape to allow reshaping of original arrays
+
+commit dcfbbe698358802f70ba91847768243059428808
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 21:21:53 2015 -0500
+
+    Changed the reshape methodology, such that only shallow copies can be reshape (turning them into non-shallow copies).
+
+commit f2f4f5afbba5c9fbfb3f4c40f38bba68da441628
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 15:09:14 2015 -0500
+
+    Removed all reference counting; now using move semantics. Reshape needs rethnking now
+
+commit 8e5a18a318de6c99b4205a82090de56f56ff9e0e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Jan 4 14:09:23 2015 -0500
+
+    RA_MOVE added to cover c++11 and c++03 return value semantics
+
+commit c20c2d5c42b628a7b8f3b905b0894907a200a453
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Thu Jan 1 15:17:43 2015 -0500
+
+    Pseudo-move semantics now working; old reference counting codew still in there, and that causes a memory leak for now; will take that out once I have convinced my self things are working. By the way, the pseudo move semantics should be replacable by c++11 move semantics when compiling as such
+
+commit 410950395a3a4ced3f9dbbee21a9f58238a61d3b
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Dec 27 18:04:18 2014 -0500
+
+    Want to move away from reference counting and toward a "last assigned cleans up"
+
+commit f3f9c8ccfe7374c1616fd4a7143f3cd002ba3065
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Dec 27 17:33:01 2014 -0500
+
+    Cosmetic changes
+
+commit 270d58791bb769fb587701e6f35232971878fdfe
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sun Dec 21 00:45:31 2014 -0500
+
+    Renamed documentation to rarraydoc.tex/pdf
+
+commit 241864f1731f6d30c58bb64f07d57a9a8c6d0be9
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Dec 20 22:50:22 2014 -0500
+
+    Tweaks of documentation
+
+commit 7fa4ca5ca9dbad52c7be17fc5a6deac16c06761e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Dec 20 22:42:03 2014 -0500
+
+    A few compiler mk files were made to accept old c++11 flags
+
+commit a199118e724b0c59539fd1101881bcb823f32549
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 16:11:20 2014 -0500
+
+    Bit of clean-up
+
+commit 9abdd7493c0501144c4037a2d6e8c10e00afbc4e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 15:35:10 2014 -0500
+
+    Cosmetic changes
+
+commit 480bf1cdc1cce830ef5664033c404dc50a01a33e
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 15:34:46 2014 -0500
+
+    Cosmetic changes
+
+commit e1ce7d5a8dbcd4605903d2454bae8db973b13b28
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 15:12:13 2014 -0500
+
+    Renamed benchmakrs and added a READMEBENCHMARKS.txt
+
+commit 67286fa57757ba85ed60aba84f460794341d7bb6
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 11:56:15 2014 -0500
+
+    Added armadillo benchmark for 2d and 4d case
+
+commit 485ccea8fc2b2d2af37927c72c187fe327cbf960
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 10:41:16 2014 -0500
+
+    Detection of array libraries seems to be working
+
+commit e38bf3d8afe149ea9271c25475199712061a1b97
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Fri Dec 19 01:17:25 2014 -0500
+
+    Spurious stuff in config.mk still
+
+commit debb5365df7564a2f479cd270342d0abe183e010
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Dec 17 16:49:14 2014 -0500
+
+    Halfway through having configure detect blitz, boost , etc
+
+commit c038b2fc54de59de3052cc1c2e2afc9a5246b3aa
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Dec 17 14:40:38 2014 -0500
+
+    omitting extras flags if empty
+
+commit dcfff1ed78dc03c35e1ba95f61a4bd4e64627a8c
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Dec 17 14:38:41 2014 -0500
+
+    config.mk formatting/syntax errors
+
+commit a9fa48fb59507693a219ad8b02bbe4f63ab27171
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Dec 17 14:35:44 2014 -0500
+
+    Trying ARMADILLO detection again
+
+commit 798ad628fe0c00857efe55cc3a754d30723f8027
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Dec 17 14:21:43 2014 -0500
+
+    ARMADILLO detection might now work
+
+commit 8014d3ac2b4679e594a6d449cf29ce3f6355e762
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Wed Dec 17 14:18:10 2014 -0500
+
+    Trying to detect other array suites for comparison in configure
+
+commit 380c4be59dac51d2ab29d66221479f2b5269e6f8
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Dec 17 13:25:11 2014 -0500
+
+    Got rid of functional forms, so there is only one way to do things (the oop way).
+
+commit db2b6fe6493252de85517ecd9c6ced04ad3c65ac
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun May 11 17:56:36 2014 -0400
+
+    Merged ra and radetail namespaces
+
+commit e0ce6aef4d8546da8960cdd4933d02ceef3bc957
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon May 5 13:44:41 2014 -0400
+
+    Tests now cover new functions
+
+commit e7dac441b7aa3daeb0d3bf7c5b89664860769f41
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu May 1 07:51:29 2014 -0400
+
+    starting transformation towards more functional usage
+
+commit 2dbe4f62c4566c081a96f839b1020db0b12a863b
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Apr 17 12:23:24 2014 -0400
+
+    Adjusted makefile for tests on power systems with ibm compilers
+
+commit d412302a089f7f29d35fa28b0741191ffffd1f87
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Apr 16 12:49:04 2014 -0400
+
+    Modifications to allow compilation with xlC
+
+commit b4474e4be7bcbd1d0eda76379b6a1365c00fc980
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Apr 16 12:05:41 2014 -0400
+
+    testfill in rarraytestsuite was testing for the wrong thing
+
+commit 0a83b315b9f383130f078371bcbd52642a613392
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 30 21:35:31 2014 -0500
+
+    Last inline tweak
+
+commit e1626d288311de6fb17fc3740e8644ed05135ff6
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 30 20:55:16 2014 -0500
+
+    Forgot that << no longer appends zero, so test failed. Also unforced some inlining
+
+commit f7beaa8bdebccc5c58295639fffbbbda225f1d72
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 30 20:36:34 2014 -0500
+
+    Made a decision regarding what to force inline. Will take a closer look at some point
+
+commit 44574787628546c941743391109a80d7acd82d36
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 29 15:15:27 2014 -0500
+
+    Inline a bit better, but not all sorted out
+
+commit 931dee5ac5b3b42af2f5bc20fbe6b83e887fa9ed
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 29 14:09:18 2014 -0500
+
+    Forced inlining of most functions: need to figure out which are too expensive too do so, and change RA_INLINEQ to RA_INLINE_ for those. TBD
+
+commit b68e384169717751fd0748da9fa49c93a709c8a3
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 29 11:38:25 2014 -0500
+
+    Added assignment from comma separated values
+
+commit 1cddc5ca76add08c847be8d0673929b8d04edd1f
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 27 10:27:52 2014 -0500
+
+    In installation, rarray.h would get renamed to rarrar.h in target directory (odd that I did not notice that before). fixed.
+
+commit 70660211e2760508ecfac6add4e5ea65898dad3e
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 24 22:57:29 2014 -0500
+
+    formatting, adding some comments
+
+commit 1f1c1a1b7f014d2303fdf2ae42376fa88127c792
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 24 13:29:52 2014 -0500
+
+    Added index member functions for specific dimensions, instead of all. Tested too.
+
+commit 1edeea55650f9f57e9604524702f88e4b194b1c3
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 24 00:39:28 2014 -0500
+
+    index works, tested
+
+commit 1edda8d98246d7fa5baf8387635e1cc8cf98a9c6
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 23 16:58:59 2014 -0500
+
+    More license stuff put in
+
+commit 4d2813c164e6614426dee6762ede116616463db7
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 23 09:55:59 2014 -0500
+
+    Finished the index routines, but no tests yet. Reduced duplicated code some more by giving subarray a get_buffer method.
+
+commit d3e603df995e45bd440c692a669e2f4b3dd83290
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 22 21:12:59 2014 -0500
+
+    started putting in  index member function to get index of an element
+
+commit 492a61f9bb292decf654826c005675af9de3ad49
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 22 11:15:17 2014 -0500
+
+    Made a flat directory structure
+
+commit 0993a779d20e0d5a217e36f17bcfccb08da1072e
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 22 10:03:01 2014 -0500
+
+    Added npy writing example, for input into python
+
+commit 68c6680de56bee8e059c6697633f91011f5e2d03
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 22 08:23:58 2014 -0500
+
+    simplified configure
+
+commit 9dbbce021e5d0a0fa7dd2128a3aaa115cec54169
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Jan 21 20:13:45 2014 -0500
+
+    Fine points from intel compiler and gpc test
+
+commit 5034b30995dc40b8dc5d76ca03735960f35158b2
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Jan 21 15:21:06 2014 -0500
+
+    fixed the 2d benchmarks
+
+commit 8102a74835ca81717b6ff4000e00c0f7acb5bab5
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Jan 21 12:30:59 2014 -0500
+
+    Moving towards something distributable, with license etc.
+
+commit 89899645059cad74537d59d6867d8a606f5ed1ba
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Jan 21 12:03:01 2014 -0500
+
+    Now with configure, to detect for different compilers
+
+commit ceae875289421a410a8f68e6a8025f01578cd43a
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 21:14:17 2014 -0500
+
+    Added a 2d benchmark too
+
+commit ed2bb5c61020bcd0687f69c50d12428ee5afb042
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 16:05:38 2014 -0500
+
+    Removed unused files
+
+commit cda8a554f6254a33d21196ff37fb002a31bdfb7a
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 15:53:47 2014 -0500
+
+    Makefile clean target now removes auxiliary documenation files too
+
+commit bcacb9af139c482317532cbc62b3e538f03a6b46
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 15:46:57 2014 -0500
+
+    added fill to test and documentation
+
+commit ee38ba133a4ac175fac1847b113260f7479c254e
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 15:23:01 2014 -0500
+
+    Fill added; Makefile is better
+
+commit c23df5be1beb47390de3279109377ad5fc03deac
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 12:42:39 2014 -0500
+
+    Changed macro names to have AR_ prefix
+
+commit b05a84eb6436732ecac21e1acd3aba736eaeefa6
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 11:50:32 2014 -0500
+
+    Complete coverage in unit tests
+
+commit dae6771fe8f81511319b9b2ae3c1b7731b3289b5
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 20 08:22:06 2014 -0500
+
+    Updated documentation
+
+commit 777f91196e40b51986c6d3fa4ff67f98e67ae156
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 19 18:44:08 2014 -0500
+
+    and removed old makefiles
+
+commit f3d3d4d27ef95c8182e32456102966f1a63821f1
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 19 18:42:45 2014 -0500
+
+    Consolidating makefile
+
+commit 0ef48e6749672c926bbe0c26e68514ade77958cb
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 19 00:54:16 2014 -0500
+
+    Refactor to avoid code-duplication.
+
+commit db6ad4982685f4f349e922ec4f40e021c647f763
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Jan 18 00:34:29 2014 -0500
+
+    Merged functions fini and clear
+
+commit 49e41210e4a4582c5325bba01716c0410f3beba4
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 17 17:06:57 2014 -0500
+
+    Made code compatible with xlC
+
+commit 1caa078fcef963150293c090b69e60f39785e250
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 17 13:08:45 2014 -0500
+
+    Iterator methods all nicely checked now
+
+commit 741a6baac7d9c5e13b4588220938b2fe2be36103
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 17 11:45:47 2014 -0500
+
+    Implemented iterator mehotd. Still not used or tested
+
+commit c1d6c273e3a6ea221379fdd0e98c539ebf06d9c1
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 17 08:28:39 2014 -0500
+
+    Added stubs for begin/end
+
+commit 4706c0f5194bc44ff5b6195704823b2be26d1025
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 16 21:23:36 2014 -0500
+
+    Clean up
+
+commit 9b812f464b2b653eadc6ad4dbe9428cf0200c1bb
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 16 20:31:24 2014 -0500
+
+    Put most stuff in ra:: name space
+
+commit af2f0c065b0eb3317f65112a2923854cfde0603c
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 15 20:19:23 2014 -0500
+
+    Expanded constructors up to R=11
+
+commit 0fd213e8fb48e9c0a5068203409446afe5c1aaf7
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 12 11:16:51 2014 -0500
+
+    Added documentation for streaming operators
+
+commit 354b32a17a8cb770ebeea12a483bc89146afe74c
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 12 08:52:04 2014 -0500
+
+    Stuff to radetail namespace. ascii output/input working; needs documenting
+
+commit 92b354bb6dee4d5ccf054c2123e27d9ae3eeaee8
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Jan 11 16:10:38 2014 -0500
+
+    Changed len= to # in input/output format.
+
+commit 3e140bd9c7f9f0c05da546797417bca23aa67971
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Jan 11 15:53:37 2014 -0500
+
+    Ascii input and output seems to be working. Needs a few more tests though.
+
+commit a66d2c34a990800f0dd716e48558c198c1d365ad
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Jan 11 13:38:10 2014 -0500
+
+    Broken input stream
+
+commit 53e74824a6ab2ead70601f07f4385d940be65435
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 10 11:50:23 2014 -0500
+
+    Renames free to clear
+
+commit 6c4eeeec860f4fcb04f67de2c88dabeba8147a40
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Jan 10 11:44:12 2014 -0500
+
+    Improved the documentation
+
+commit 603f209fa5abab7d3ca5a977a15d7af21fff6994
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 9 16:56:06 2014 -0500
+
+    Added streaming operators for output (input remains).
+
+commit 1d5aa2a2d37000b276789ab165d21826408f446d
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Jan 9 16:08:04 2014 -0500
+
+    Edited documentation
+
+commit 2eaac02ea16460a913f084bf983aa04e9b797aad
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 8 23:14:16 2014 -0500
+
+    Added tests for the conversions from automatic to dynamic arrays
+
+commit 62587cc9b2b1fd45a7ab854bcdb1aed38dbf7a7d
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 8 19:39:40 2014 -0500
+
+    Added conversions from automatic arrays - not tested yet;
+
+commit 4c70c2bdb1bf07b5c7e3ac48ed23384498fcc9c3
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Jan 8 11:49:40 2014 -0500
+
+    Added reshape to the documentation;
+
+commit f1dd182746f87f2f4d8a0942bbaf2f07f72f8191
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Jan 6 13:36:39 2014 -0500
+
+    Reshape now tested. Can now reshape referenced ones too
+
+commit f88100a13b5fb0919b97ae3e5bcf845821b8e82f
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 5 19:19:15 2014 -0500
+
+    Added implementation of reshape, but not a test
+
+commit be961a8520a7a03405456e3710ad456912f35239
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 5 18:38:22 2014 -0500
+
+    Removed near-trivial setn method
+
+commit 5824f206c45f684cc872f8b782fc9d86c5c37c8d
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Jan 5 18:32:44 2014 -0500
+
+    Added declarations for reshape method in rarray template class
+
+commit 46d75b24da95ac820c6c7ad1396fbe36028abe01
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Dec 29 08:55:26 2013 -0500
+
+    Added a fortran version of the 4d speed test, incomplete
+
+commit 8305062597d1c999474701524039eb90fdbd282b
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Dec 28 21:40:43 2013 -0500
+
+    Simplified the rarray_intermediate - some refactoring
+
+commit b7549b0c8c5168b688f8005294de87180cfb2edc
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Dec 20 09:32:37 2013 -0500
+
+    Cleanup of origin stuff
+
+commit e55342c968af7b97faea08ca612ee13208b1dd41
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Fri Dec 20 00:16:42 2013 -0500
+
+    Restricted ref counting to original arrays, so no need to keep that of originals. No longer allowing zero extents
+
+commit 7e9e742ed18e1817a6a771d6da82fa703f8f207c
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Dec 19 11:49:09 2013 -0500
+
+    Made volume a function too.
+
+commit 6da12947038db9b89957082ecf257f5e2f7b4f04
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Dec 19 11:43:14 2013 -0500
+
+    Making buffer a function: this breaks some functionality, i.e., having a shallow copy sub array stored and deleting the parent array will give issues in the destructor of the subarray. But in future version, I want this to be causing troubles (want to move away from refcounting), just not in the constructor but in accessors.
+
+commit 6a03ad9a42314bb9cd8afe0b8e7602fedddbc6d5
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Dec 18 11:19:44 2013 -0500
+
+    Refactored
+
+commit 2dc3ff7c5b16d93f92969c5f8aa47fb031dab039
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Dec 18 09:43:03 2013 -0500
+
+    Added a usage example
+
+commit 48f31be0c62bd5150701b77030bba386bad25758
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Dec 17 13:44:08 2013 -0500
+
+    Added some comments
+
+commit 5f0ac3f6a3545be590e2938b436468ee2b5f0e24
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 17:16:49 2013 -0500
+
+    Added a 4d speed test between automatic arrays, dynamic arrays, rarray, boost and blitz (two ways).
+
+commit 103439c35766e0490062dce848f89aa2382679f0
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 17:08:42 2013 -0500
+
+    miniscule rewrite
+
+commit bacb6f0d6781163a04c994fcc733faadc68cecaa
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 17:04:12 2013 -0500
+
+    Tweaked pointer-to-pointer creation method to deal with zero in any dimension (a questionable practice, but i do not want to disallow it). Valgrind says 0 errors!
+
+commit 797649688b33cdd6859af42f927f8262615d3157
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 16:42:53 2013 -0500
+
+    Turns out fini code was not checking if the data was owned (although everything was setup for it. Something with the assignment is still amiss accoring to valgrind
+
+commit 7e0724a4273c18248e85a5b0db280aaabddd6574
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 16:36:57 2013 -0500
+
+    Fixed = to == typo. Valgrind says all memory is dallocated but plenty of illegal frees now
+
+commit d849baba17c7f876856973bb2b9dd0f3092e2f83
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 16:27:48 2013 -0500
+
+    Seems to work, but valgrind reports a lot of leaks to be fixed
+
+commit f092f497dd9c613d0d8dc9b28cdfc57bcf101fee
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 16:16:32 2013 -0500
+
+    Cleanup
+
+commit 58fe836b12e5f0c64096d10d083cc6c39061ff9e
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 16:07:48 2013 -0500
+
+    New method of copying (more shallow by default) implemented, other code still commented out
+
+commit a111ae9b9a7f3f224ceecc8a383df6f13ea346bf
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 16 12:00:36 2013 -0500
+
+    Starting conversion to new init
+
+commit 4590ad46b089906f148aacb4046b43bda2b28f94
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Dec 14 22:42:49 2013 -0500
+
+    Added newer init methods, not used
+
+commit c9a7c3b5e6edb9010ead323ef6236f6078006ac3
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Dec 14 11:56:17 2013 -0500
+
+    Added an initialized members to be used for reference couning the pointer-to-pointer structurs.
+
+commit 07d54d08ce477500dc6cf13a67f099c3b873a103
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Thu Dec 12 11:52:36 2013 -0500
+
+    Mentioning mercurial in comments now
+
+commit c73b3ec0e2408d5f492ad5f7a4726302df23faeb
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Dec 10 00:22:50 2013 -0500
+
+    Changed name of tests.cc to rarraytestsuite.cc
+
+commit 57b9b72e46ec4b878dff3abcd31a6fa72644e2c5
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 9 11:05:51 2013 -0500
+
+    Added more test. After removing dead code, 100% test coverage in terms of methods
+
+commit 17956545ab3bc78fff035260869c640b38cd9eb1
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sun Dec 8 12:04:01 2013 -0500
+
+    Added more tests; uncovered a uncompilable piece of code in rarray::operator=(const rarray_intermediate&) that got fixed"
+
+commit 42976db1df829f94dde46c142275801929ca9207
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Wed Dec 4 00:47:41 2013 -0500
+
+    More tests
+
+commit 0acfe9700aa4c3189166d85420772e4825e9822b
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Dec 3 12:59:25 2013 -0500
+
+    Completely constness (I think). Added profiling remarks to see to what extent the tests cover the code (not too good so far:()
+
+commit 2f51cbb7df6a30187c3c43c83547670b9ded168f
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Tue Dec 3 07:58:10 2013 -0500
+
+    Added matrix-multiply test
+
+commit 7f3f7fee238bae05ed1ec62a19885036287f3530
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 2 14:17:29 2013 -0500
+
+    Added makefiles - cleaned up hg
+
+commit 659dcf59cd5de187b0e917410cb286de70aacaed
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 2 14:15:02 2013 -0500
+
+    Worked on tests. Constness still bugging
+
+commit fc1e0edd3b9f4afac146210ab85fc40b808334a4
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Mon Dec 2 10:42:02 2013 -0500
+
+    First commit of the header-only library rarray for runtime (dynamic) multidimensional arrays
